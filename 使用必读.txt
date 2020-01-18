@@ -1,0 +1,9 @@
+npm install -g npm-check-updates                             > 全局安装检测npm依赖包版本插件(只需安装一次)
+
+1: ncu --reject path-to-regexp,babel-loader                  > 查看版本更新
+2: ncu -u                                                    > 更新package.json依赖
+3: npm install                                               > 安装最新依赖
+4: et -i                                                     > 下载scss文件
+5: et                                                        > 打包scss文件到项目
+6: npm run dev                                               > 运行项目
+7: npm run build:prod                                        > 打包项目

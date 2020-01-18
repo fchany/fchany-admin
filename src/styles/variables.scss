@@ -1,0 +1,41 @@
+// base color
+$blue:#324157;
+$light-blue:#3A71A8;
+$red:#C03639;
+$pink: #E65D6E;
+$green: #30B08F;
+$tiffany: #4AB7BD;
+$yellow:#FEC171;
+$panGreen: #30B08F;
+
+//sidebar
+$menuText:#c7c7c7; // 一级菜单的文字颜色
+// $menuText:#fff; // 一级菜单的文字颜色
+// $menuActiveText:#42b983; // 一级菜单的文字选中颜色
+$menuActiveText:#fff; // 一级菜单的文字选中颜色
+// $subMenuActiveText:#fff; // 二级菜单选中时  一级菜单的文字颜色
+$subMenuActiveText:#eee; // 二级菜单选中时  一级菜单的文字颜色
+
+$menuBg:#3C3F41; // 一级菜单菜单背景
+// $menuBg:#545c64; // 一级菜单菜单背景
+$menuHover:#0D293E; // 一级菜单的hover效果
+// $menuHover:#383c41; // 一级菜单的hover效果
+
+// $subMenuBg:#383c41; // 子菜单的背景
+$subMenuBg:#3C3F41; // 子菜单的背景
+$subMenuHover:#0D293E; // 子菜单的hover效果
+
+$sideBarWidth: 210px;
+
+// the :export directive is the magic sauce for webpack
+// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+:export {
+  menuText: $menuText;
+  menuActiveText: $menuActiveText;
+  subMenuActiveText: $subMenuActiveText;
+  menuBg: $menuBg;
+  menuHover: $menuHover;
+  subMenuBg: $subMenuBg;
+  subMenuHover: $subMenuHover;
+  sideBarWidth: $sideBarWidth;
+}
